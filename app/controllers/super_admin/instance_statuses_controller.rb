@@ -1,11 +1,11 @@
 class SuperAdmin::InstanceStatusesController < SuperAdmin::ApplicationController
   def show
     @metrics = {}
-    chatwoot_version
+    # chatwoot_version
     sha
     postgres_status
     redis_metrics
-    chatwoot_edition
+    # chatwoot_edition
     instance_meta
   end
 
